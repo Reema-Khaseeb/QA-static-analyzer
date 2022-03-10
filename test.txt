@@ -1,5 +1,6 @@
 def check1(x,n,z,w,q) :
     if True:
+        print(x)
     else:
         print('Never reached')
 
@@ -7,6 +8,7 @@ def check2() :
     if False:
         print('Hola')
     else:
+        check1(x,n,z,w,q)
         print('else always reached')
 
 def check3(w, z) :
@@ -22,19 +24,22 @@ def check4(x) :
               
 def double_check(x) :
     if x == 0:
+        check4(5)
         print("x is zero")
     elif x == 0:
         print("well x is zero")
+
 def h(x,f,z) :
     p = 0 
     q = x/0
     f = x+10
     print("Hi")
     z = 1/p
+
 def check6(z) :
     h(x,f,z)
-     for i>7:
-     print(i)
+    for i>7:
+        print(i)
 
     
       
