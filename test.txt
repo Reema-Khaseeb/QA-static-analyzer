@@ -1,7 +1,5 @@
 def check1(x,n,z,w,q):
     if True:
-        y=0
-         w=x/y
     else:
         print('Never reached')
 
@@ -31,7 +29,7 @@ def double_check(x):
 def h(x,f,z):
     p = 0 
     q = x/0
-    f = p+10
+    f = x+10
     print("Hi")
     z = 1/p
  def check6(z):
